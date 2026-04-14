@@ -4,7 +4,7 @@ class cart:
         self.iteam={}
         self.price={"Book":50,"pen":10} 
         
-    def add_iteam(self,iteramss,quality):
+    def add_iteam(self,iteramss,quality):   
         self.iteam[iteramss]=quality
         
     def remove(self,iteramss):
