@@ -3,7 +3,7 @@ class cart:
     def __init__(self):
         self.iteam={}
         self.price={"Book":50,"pen":10} 
-        
+            
     def add_iteam(self,iteramss,quality):   
         self.iteam[iteramss]=quality
         
